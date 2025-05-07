@@ -1,0 +1,23 @@
+{
+    "name": "it1-commands",
+    "version": "1.0.0",
+    "description": "A simple Node.js library to control Systec IT-1 scale indicator commands over serial.",
+    "main": "lib/index.js",
+    "keywords": [
+        "serial",
+        "scale",
+        "weighing",
+        "systec",
+        "it1",
+        "commands"
+    ],
+    "scripts": {
+        "demo": "node examples/demo.js"
+    },
+    "author": "Domantas K. <domantas@bltech.eu>",
+    "license": "MIT",
+    "dependencies": {
+        "@serialport/parser-delimiter": "^13.0.0",
+        "serialport": "^13.0.0"
+    }
+}
